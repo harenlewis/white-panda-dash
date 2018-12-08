@@ -7,7 +7,7 @@ Responsive dashboard built completely in [React](https://reactjs.org/ "ReactJs")
  
  1. Clone the respository
     
-    `$ git clone https://github.com/HarenLewis/Udaan-GetMyTickets.git`
+    `$ git clone https://github.com/harenlewis/white-panda-dash.git`
 
     and 
     
