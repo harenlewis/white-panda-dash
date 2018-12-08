@@ -1,0 +1,10 @@
+.main-content {
+    display: flex;
+    background: #fafafa;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-content {
+        flex-direction: column;
+    }
+}

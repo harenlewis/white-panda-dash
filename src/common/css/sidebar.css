@@ -1,0 +1,32 @@
+.sidebar {
+    flex-basis: 62px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    box-shadow: 1px 1px 8px #ccc;
+}
+
+.item {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.item.active {
+    color: #50b774;
+    background: #fafafa;
+}
+
+@media only screen and (max-width: 767px) {
+    .sidebar {
+        flex-basis: auto;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .item {
+        width: 50px;
+    }
+}
